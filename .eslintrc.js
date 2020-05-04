@@ -26,6 +26,7 @@ module.exports = {
     'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     'no-undef': 'off',
     'react/jsx-props-no-spreading' : 'off',
+    'react/prop-types': 'off'
     // 'react/jsx-one-expression-per-line': 'off',
     // 'global-require': 'off',
     // 'react-native/no-raw-text': 'off',
