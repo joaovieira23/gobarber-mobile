@@ -26,14 +26,14 @@ module.exports = {
     'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     'no-undef': 'off',
     'react/jsx-props-no-spreading' : 'off',
-    'react/prop-types': 'off'
+    'react/prop-types': 'off',
     // 'react/jsx-one-expression-per-line': 'off',
     // 'global-require': 'off',
     // 'react-native/no-raw-text': 'off',
     // 'no-param-reassign': 'off',
     // 'no-underscore-dangle': 'off',
     // camelcase: 'off',
-    // 'no-console': ['error', { allow: ['tron'] }],
+    'no-console': ['error', { allow: ['tron'] }],
     // 'react-hooks/rules-of-hooks': 'error',
     // 'react-hooks/exhaustive-deps': 'warn',
 
