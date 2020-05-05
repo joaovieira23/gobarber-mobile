@@ -20,7 +20,7 @@ export const Form = styled.View`
 `;
 
 export const FormInput = styled(Input)`
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 `;
 
 export const SubmitButton = styled(Button)`
