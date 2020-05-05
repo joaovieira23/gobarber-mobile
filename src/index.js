@@ -6,14 +6,15 @@ import 'react-native-gesture-handler';
 import './config/ReactotronConfig';
 
 import { store, persistor } from './store';
-import Routes from './routes';
 
-export default function src() {
+import App from './App';
+
+export default function Index() {
   return (
     <Provider store={store}>
       <PersistGate persistor={persistor}>
         <StatusBar barStyle="light-content" backgroundColor="#7159c1" />
-        <Routes />
+        <App />
       </PersistGate>
     </Provider>
   );
