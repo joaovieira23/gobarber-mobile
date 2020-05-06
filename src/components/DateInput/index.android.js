@@ -20,6 +20,7 @@ export default function DateInput({ date, onChange }) {
     });
 
     if (action === DatePickerAndroid.dateSetAction) {
+      // Se o usuário selecionou uma data
       const selectedDate = new Date(year, month, day);
 
       onChange(selectedDate);
